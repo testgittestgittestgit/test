@@ -1,5 +1,3 @@
-#testfoo
-
 <?php
 
 echo 'foo';
