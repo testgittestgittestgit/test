@@ -24,7 +24,6 @@
  * Use the 'passhash.sh' script to generate the hash.
  * NOTE: the prompt value is tied to the hash!
  */
-<?php
 $passprompt = "WhiteWinterWolf's PHP webshell: ";
 $passhash = "";
 
